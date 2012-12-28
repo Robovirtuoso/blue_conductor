@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.azlyrics.com/lyrics/dearhunter/redhands.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - nginx/1.2.6
+      date:
+      - Sun, 23 Dec 2012 02:48:54 GMT
+      content-type:
+      - text/html
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
+        xml:lang=\"en\" lang=\"en\">\r\n<head>\r\n<title>THE DEAR HUNTER LYRICS -
+        Red Hands</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\" />\r\n<meta name=\"description\" content=\"Lyrics to &quot;Red
+        Hands&quot; song by THE DEAR HUNTER: Even if you never strayed from me I'd
+        question your fidelity There'd always be a shroud of suspicion...\" /> \r\n<meta
+        name=\"keywords\" content=\"Red Hands lyrics, THE DEAR HUNTER Red Hands lyrics,
+        THE DEAR HUNTER lyrics\" />\r\n<meta name=\"robots\" content=\"noarchive\"
+        />\r\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../../azl.css\" />\r\n<script
+        type=\"text/javascript\" src=\"http://www.azlyrics.com/external.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"http://images.azlyrics.com/head.js\"></script>\r\n<script
+        type=\"text/javascript\" language=\"JavaScript\">\r\nArtistName = \"THE DEAR
+        HUNTER\";\r\nSongName = \"Red Hands\";\r\n</script>\r\n</head>\r\n<body>\r\n<div
+        id=\"h1head\"><h1>\"Red Hands\" lyrics</h1></div>\r\n\r\n<div id=\"main\">\r\n<script
+        type=\"text/javascript\" src=\"http://images.azlyrics.com/top_rock.js\"></script>\r\n\r\n<!--
+        flex -->\r\n<script>\r\ncf_page_artist = ArtistName;\r\ncf_page_song = SongName;\r\ncf_page_genre
+        = \"\";\r\ncf_adunit_id = \"39381789\";\r\ncf_flex = true;\r\n</script>\r\n<script
+        src=\"http://srv.clickfuse.com/showads/showad.php\"></script>\r\n<!-- flex
+        end -->\r\n\r\n<!-- AddThis Button BEGIN -->\r\n<iframe src=\"http://www.facebook.com/plugins/like.php?href=http://www.azlyrics.com/lyrics/dearhunter/redhands.html&amp;layout=button_count&amp;show_faces=false&amp;width=140&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21\"
+        scrolling=\"no\" frameborder=\"0\" style=\"float:left; border:none; overflow:hidden;
+        width:140px; height:21px;\" allowTransparency=\"true\"></iframe>\r\n<script
+        type=\"text/javascript\">\r\n<!--\r\nvar addthis_config = {\r\n      services_custom:
+        {\r\n              name: \"Amazon\",\r\n              url: \"http://www.amazon.com/gp/search?ie=UTF8&keywords=THE+DEAR+HUNTER%20Red+Hands&tag=azlyricsunive-20&index=digital-music&linkCode=ur2&camp=1789&creative=9325\",\r\n
+        \             icon: \"http://images.azlyrics.com/play.gif\"}\r\n}\r\n// -->\r\n</script>\r\n<div
+        class=\"addthis_toolbox addthis_default_style\" style=\"float:right;\">\r\n\t<a
+        class=\"addthis_button_www.amazon.com\" title=\"Get MP3!\" style=\"text-decoration:none;
+        color: black;\">MP3&nbsp;</a>    \r\n\t<a class=\"addthis_button_email\">Email&nbsp;</a>\r\n\t<a
+        class=\"addthis_button_print\">Print</a>\r\n</div>\r\n<script type=\"text/javascript\"
+        src=\"http://s7.addthis.com/js/300/addthis_widget.js#username=azlyrics\"></script>\r\n\r\n<!--
+        AddThis Button END -->\r\n\r\n<!-- JANGO PLAYER -->\r\n<div style=\"clear:both;\">\r\n<iframe
+        width=\"325\" scrolling=\"no\" height=\"38\" frameborder=\"0\" vspace=\"0\"
+        hspace=\"0\" allowTransparency=\"true\" marginwidth=\"0\" marginheight=\"0\"
+        style=\"border: 0px none; padding:5px 0 30px;\" src=\"http://jmn.jangonetwork.com/az?cust_params=j_artist=THE
+        DEAR HUNTER&amp;j_title=Red Hands\"></iframe><br />\r\n</div>\r\n<!-- END
+        OF JANGO PLAYER -->\r\n\r\n<h2>THE DEAR HUNTER LYRICS</h2>\r\n\r\n<div class=\"ringtone\">\r\n<img
+        src=\"http://images.azlyrics.com/phone.gif\" width=\"16\" height=\"17\" alt=\"Red
+        Hands Ringtone\" />&nbsp;<a href=\"http://www.ringtonematcher.com/co/ringtonematcher/02/noc.asp?sid=DVAZros&amp;artist=THE+DEAR+HUNTER&amp;song=Red+Hands\"
+        class=\"Ringtones\">Send \"Red Hands\" Ringtone to your Cell</a>&nbsp;<img
+        src=\"http://images.azlyrics.com/phone_flip.gif\" width=\"16\" height=\"17\"
+        alt=\"Red Hands Ringtone\" />\r\n</div>\r\n\r\n<b>\"Red Hands\"</b><br />\r\n\r\n<br
+        />\r\n\r\n<div style=\"margin-left:10px;margin-right:10px;\">\r\n<!-- start
+        of lyrics -->\r\nEven if you never strayed from me<br />\nI'd question your
+        fidelity<br />\nThere'd always be a shroud of suspicion<br />\nAnd my heart's
+        a liability<br />\n<br />\nWith your hands marooned so freshly red<br />\nYou'd
+        wrap your lips around my neck<br />\nTry and forced to love the thought of
+        me<br />\nSimple motions make me ill<br />\n<br />\nWas it bitter when you
+        tossed and turned<br />\nOn his under cover mattress, <br />\nDid it feel
+        so good <br />\nHope it felt so good<br />\nDon't know what I'd do if you
+        lost sleep over little old me<br />\nHe's so much better<br />\nThey're all
+        much better<br />\nTake off your sweater your shoes and your shirt<br />\nAnd
+        get to work<br />\n<br />\nMaybe this is just a work of art<br />\nScripted
+        players in a play of lust<br />\nHope the end is well worth waiting for<br
+        />\nEverything you wished it be<br />\nWas it bitter when you tossed and turned<br
+        />\nOn his under cover mattress, <br />\nDid it feel so good<br />\nHope it
+        felt so good<br />\nDon't know what I'd do if you lost sleep over little old
+        me<br />\nHe's so much better, they're all much better<br />\nTake off your
+        sweater your shoes and your shirt <br />\nAnd get to work<br />\n<br />\nOh
+        my god what have I done<br />\nNow my darling put your clothes back on<br
+        />\nOh my god what have I done<br />\nNow my darling put your clothes back
+        on<br />\n<br />\nBecause you can't be caught red handed<br />\nIf you're
+        not red handed<br />\nMy darling I would never say those words to you<br />\nI
+        was pulling out my heart so I could pin it to my sleeve<br />\nOn display
+        for you to see I'm on display<br />\n<br />\nBecause you can't be caught red
+        handed<br />\nIf you're not red handed<br />\nMy darling I would never say
+        those words to you<br />\nI was pulling out my heart so I could pin it to
+        my sleeve<br />\nOn display for you to see I'm on display<br />\n<br />\n(Oh
+        my god what have I done)<br />\n(Now my darling put your clothes back on)<br
+        />\n(Oh my god what have I done)<br />\n(Now my darling put your clothes back
+        on)<br />\n(Now my darling put your clothes back on)<br />\n<br />\nBecause
+        you can't be caught red handed if you're not red handed<br />\nMy darling
+        I would never say those words to you<br />\nI was pulling out my heart so
+        I could pin it to my sleeve<br />\nOn display for you to see I'm on display<br
+        />\n<br />\n(Oh my god what have I done?)<br />\n(Now my darling put your
+        clothes back on)<br />\n(Now my darling put your clothes back on)\r\n<!--
+        end of lyrics -->\r\n</div>\r\n\r\n<br /><br /><br /><br />\r\n\r\n\r\n\r\n\r\n<form
+        action=\"../../add.php\" method=\"post\" id=\"corlyr\">\r\n<input type=\"hidden\"
+        name=\"what\" value=\"correct_lyrics\" />\r\n<input type=\"hidden\" name=\"song_id\"
+        value=\"255359\" />\r\n</form>\r\n\r\n<br />\r\n<div class=\"bmenu\"><ul>\r\n\r\n<li><a
+        href=\"#\" onclick=\"document.getElementById('corlyr').submit();return false;\">Submit
+        Corrections</a></li>\r\n<li><a href=\"http://www.azlyrics.com/d/dearhunter.html\">THE
+        DEAR HUNTER Lyrics</a></li>\r\n<li class=\"mlast\"><a class=\"main\" href=\"http://www.azlyrics.com\">A-Z
+        Lyrics</a></li>\r\n</ul></div>\r\n\r\n<div class=\"ringtone\">\r\n<img src=\"http://images.azlyrics.com/phone.gif\"
+        width=\"16\" height=\"17\" alt=\"Red Hands Ringtone\" />&nbsp;<a href=\"http://www.ringtonematcher.com/co/ringtonematcher/02/noc.asp?sid=DVAZros&amp;artist=THE+DEAR+HUNTER&amp;song=Red+Hands\"
+        class=\"Ringtones\">Send \"Red Hands\" Ringtone to your Cell</a>&nbsp;<img
+        src=\"http://images.azlyrics.com/phone_flip.gif\" width=\"16\" height=\"17\"
+        alt=\"Red Hands Ringtone\" />\r\n</div>\r\n\r\n<!-- AddThis Button BEGIN -->\r\n<iframe
+        src=\"http://www.facebook.com/plugins/like.php?href=http://www.azlyrics.com/lyrics/dearhunter/redhands.html&amp;layout=button_count&amp;show_faces=false&amp;width=140&amp;action=like&amp;font=verdana&amp;colorscheme=light&amp;height=21\"
+        scrolling=\"no\" frameborder=\"0\" style=\"float:left; border:none; overflow:hidden;
+        width:140px; height:21px;\" allowTransparency=\"true\"></iframe>\r\n<script
+        type=\"text/javascript\">\r\n<!--\r\nvar addthis_config = {\r\n      services_custom:
+        {\r\n              name: \"Amazon\",\r\n              url: \"http://www.amazon.com/gp/search?ie=UTF8&keywords=THE+DEAR+HUNTER%20Red+Hands&tag=azlyricsunive-20&index=digital-music&linkCode=ur2&camp=1789&creative=9325\",\r\n
+        \             icon: \"http://images.azlyrics.com/play.gif\"}\r\n}\r\n// -->\r\n\r\n</script>\r\n<div
+        class=\"addthis_toolbox addthis_default_style\" style=\"float:right;\">\r\n\t<a
+        class=\"addthis_button_www.amazon.com\" title=\"Get MP3!\" style=\"text-decoration:none;
+        color: black;\">MP3&nbsp;</a>    \r\n\t<a class=\"addthis_button_email\">Email&nbsp;</a>\r\n\t<a
+        class=\"addthis_button_print\">Print</a>\r\n</div>\r\n<script type=\"text/javascript\"
+        src=\"http://s7.addthis.com/js/300/addthis_widget.js#username=azlyrics\"></script>\r\n<!--
+        AddThis Button END -->\r\n<div class=\"cb\"></div>\r\n\r\n<form class=\"search\"
+        method=\"get\" action=\"http://search.azlyrics.com/search.php\">\r\n\r\nEnter
+        artist/album/song to search lyrics for:<div class=\"search_wr\"><input id=\"q\"
+        name=\"q\" class=\"search_text\" type=\"text\" value=\"\" /><button class=\"search_btn\"
+        type=\"submit\"></button><div id=\"qas\"></div></div>\r\n</form>\r\n\r\n<script
+        type=\"text/javascript\" src=\"http://images.azlyrics.com/bot_rock.js\"></script>\r\n\r\n<div
+        class=\"smenu\"><ul>\r\n<li><a href=\"http://www.azlyrics.com/adv.html\">Advertise
+        Here</a></li>\r\n<li><a href=\"http://www.azlyrics.com/privacy.html\">Privacy
+        Policy</a></li>\r\n<li><a href=\"http://www.azlyrics.com/copyright.html\">DMCA
+        Policy</a></li>\r\n<li class=\"mlast\"><a href=\"http://www.azlyrics.com/contact.html\">Contact
+        Us</a></li>\r\n</ul></div>\r\n<div class=\"copyright\">THE DEAR HUNTER lyrics
+        are property and copyright of their owners.<br />\"Red Hands\" lyrics provided
+        for educational purposes and personal use only.<br />\r\n\r\n<script type=\"text/javascript\"><!--\r\ncurdate=new
+        Date();\r\ndocument.write(\"<b>Copyright &copy; 2000-\"+curdate.getFullYear()+\"
+        AZLyrics.com<\\/b>\"); // -->\r\n</script>\r\n</div>\r\n\r\n</div>\r\n<script
+        type=\"text/javascript\">\r\n<!--\r\nvar gaJsHost = ((\"https:\" == document.location.protocol)
+        ? \"https://ssl.\" : \"http://www.\");\r\ndocument.write(unescape(\"%3Cscript
+        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\r\n//
+        \ -->\r\n</script>\r\n<script type=\"text/javascript\">\r\n<!--\r\ntry {\r\nvar
+        pageTracker = _gat._getTracker(\"UA-4309237-1\");\r\npageTracker._setDomainName(\".azlyrics.com\");\r\npageTracker._trackPageview();\r\n}
+        catch(err) {}\r\n//  -->\r\n</script>\r\n</body>\r\n</html>\r\n\n</script>\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+  recorded_at: Sun, 23 Dec 2012 02:48:54 GMT
+recorded_with: VCR 2.3.0

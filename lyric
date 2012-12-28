@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby -w
+
+require '/Users/craig.williams/Documents/Projects/conductor/lib/conductor'
+
+if ARGV.count == 0
+  puts "You must provide a band and song name"
+  exit
+end
+
+band = ARGV.first
+song = ARGV.last
+
+track = Conductor.song_for(band, song)
+
+puts '*'*100
+puts "Band: #{track.band}"
+puts "Title: #{track.title}"
+puts "Lyrics:"
+puts '-'*100
+puts track.lyrics
+puts '*'*100
+
