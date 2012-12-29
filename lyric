@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby -w
 
-require '/Users/craig.williams/Documents/Projects/conductor/lib/conductor'
+require 'conductor'
 
 if ARGV.count == 0
   puts "You must provide a band and song name"
