@@ -38,6 +38,11 @@ Calling title or band will return the information that you originally passed in 
 
 There is a lyrics file providing containing example information on how to use the gem from the terminal.
 
+## Future Installments
+
+A future version of conductor will come with a 'record_for' method that when passed a band name and the name of an album will return an array of song objects containing
+the title, band name and lyrics of all the songs on that album.
+
 ## Contributing
 
 1. Fork it
