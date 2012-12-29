@@ -5,7 +5,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require 'conductor' 
+require 'blue_conductor' 
 require 'pry'
 require 'vcr'
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby -w
 
-require 'conductor'
+require 'blue_conductor'
 
 if ARGV.count == 0
   puts "You must provide a band and song name"
@@ -10,7 +10,7 @@ end
 band = ARGV.first
 song = ARGV.last
 
-track = Conductor.song_for(band, song)
+track = BlueConductor.song_for(band, song)
 
 puts '*'*100
 puts "Band: #{track.band}"
