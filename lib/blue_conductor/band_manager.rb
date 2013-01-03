@@ -1,12 +1,12 @@
 module BlueConductor
   class BandManager
-    attr_reader :band, :song, :data, :error
+    attr_reader :band, :song, :data, :album
     attr_accessor :url_generator, :request, :parser
 
     def initialize(band, song)
       @band = band
       @song = song
-      @error = ''
+      @album = ''
       @data = ''
     end
 
@@ -14,11 +14,8 @@ module BlueConductor
       url   = url_generator.generate(self)
       html  = request.fetch(url)
 
-      if html
-        @data = parser.parse(html)
-      else
-        @error = 'The band/song does not exist || there was a spelling error'
-      end
+      @data = parser.data(html)
+      @album = parser.album(html)
 
       BlueConductor::Song.new(self)
     end

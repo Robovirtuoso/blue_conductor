@@ -370,4 +370,45 @@ http_interactions:
         />\r\n</noscript>\r\n<!-- End comScore Tag -->\r\n\r\n</body>\r\n</html>\r\n"
     http_version: '1.1'
   recorded_at: Thu, 03 Jan 2013 03:12:28 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/back-in-black-lyrics/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Thu, 03 Jan 2013 19:15:35 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=ok4ph3a2l00ejkjc988tdi4aj3; path=/
+      location:
+      - http://www.songlyrics.com/acdc/back-in-black-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Thu, 03 Jan 2013 19:15:34 GMT
 recorded_with: VCR 2.3.0

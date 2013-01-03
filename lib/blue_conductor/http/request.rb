@@ -3,11 +3,7 @@ module BlueConductor
     class Request
 
       def self.fetch(url)
-        begin
-          open(url)
-        rescue OpenURI::HTTPError
-          nil
-        end
+        Net::HTTP.get(URI.parse(url))
       end
     end
   end

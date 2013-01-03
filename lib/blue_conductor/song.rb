@@ -1,12 +1,12 @@
 module BlueConductor
   class Song
-    attr_accessor :title, :band, :lyrics, :error
+    attr_accessor :title, :band, :album, :lyrics
 
     def initialize(manager)
       @title  = manager.song
       @band   = manager.band
+      @album  = manager.album
       @lyrics = manager.data
-      @error = manager.error
     end
   end
 end

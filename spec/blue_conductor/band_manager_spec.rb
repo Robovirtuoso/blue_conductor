@@ -6,6 +6,7 @@ describe BlueConductor::BandManager do
   let(:band) { 'Van Halen' }
   let(:song) { 'Unchained' }
   let(:data) { "Change, nothin' stays the same" }
+  let(:album) { 'Fair Warning' }
   let(:manager_mock) { mock(band: band, song: song, data: data) }
   let(:song_object) { BlueConductor::Song.new(manager_mock) }
 
@@ -17,7 +18,7 @@ describe BlueConductor::BandManager do
 
   describe '.new' do
     it 'creates an instance of itself' do
-      subject.band.should == band
+     subject.band.should == band
       subject.song.should == song
     end
   end
@@ -31,6 +32,7 @@ describe BlueConductor::BandManager do
 
         @track.title.should == song
         @track.band.should == band
+        @track.album.should == album
         @track.lyrics.should =~ /#{data}/
       end
     end
@@ -44,7 +46,8 @@ describe BlueConductor::BandManager do
           @track = subject.song!
         end
 
-        @track.error.should =~ /does not exist/
+        @track.lyrics.should =~ /Sorry, we have no/
+        @track.album.should =~ /Album Missing/
         @track.title.should == song
         @track.band.should == band
       end
