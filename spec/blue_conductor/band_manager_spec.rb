@@ -11,9 +11,9 @@ describe BlueConductor::BandManager do
   let(:song_object) { BlueConductor::Song.new(manager_mock) }
 
   before do
-    subject.url_generator = BlueConductor::HTTP::UrlGenerator
-    subject.request       = BlueConductor::HTTP::Request
-    subject.parser        = BlueConductor::HTTP::Response
+    subject.url_generator = BlueConductor::SongFor::HTTP::UrlGenerator
+    subject.request       = BlueConductor::SongFor::HTTP::Request
+    subject.parser        = BlueConductor::SongFor::HTTP::Response
   end
 
   describe '.new' do
