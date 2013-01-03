@@ -10,12 +10,12 @@ module BlueConductor
     end
 
     def clean
-      @band = strip(@band).gsub("the", "")
+      @band = strip(@band)
       @song = strip(@song)
     end
 
     def strip(str)
-      str.downcase.gsub(UNWANTED_CHARS, "")
+      str.downcase.gsub(UNWANTED_CHARS, "-")
     end
   end
 end

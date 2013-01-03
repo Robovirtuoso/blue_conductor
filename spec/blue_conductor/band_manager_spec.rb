@@ -3,9 +3,9 @@ require 'spec_helper'
 describe BlueConductor::BandManager do
   subject { BlueConductor::BandManager.new(band, song) }
 
-  let(:band) { 'The Dear Hunter' }
-  let(:song) { 'Red Hands' }
-  let(:data) { "Even if you never strayed from me\nI'd question your fidelity" }
+  let(:band) { 'Van Halen' }
+  let(:song) { 'Unchained' }
+  let(:data) { "Change, nothin' stays the same" }
   let(:manager_mock) { mock(band: band, song: song, data: data) }
   let(:song_object) { BlueConductor::Song.new(manager_mock) }
 

@@ -134,3 +134,240 @@ http_interactions:
         catch(err) {}\r\n//  -->\r\n</script>\r\n</body>\r\n</html>\r\n\n</script>\r\n</body>\r\n</html>\r\n"
     http_version: '1.1'
   recorded_at: Sun, 23 Dec 2012 03:07:05 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/back-in-black.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Thu, 03 Jan 2013 03:12:31 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      last-modified:
+      - Fri, 04 May 2012 23:29:35 GMT
+      accept-ranges:
+      - bytes
+      content-length:
+      - '16723'
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      connection:
+      - close
+      content-type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns:fb=\"http://www.facebook.com/2008/fbml\">\r\n<head>\r\n\r\n<meta
+        name=\"msvalidate.01\" content=\"CF28C9C2E5FDBD5C7CA7F6FE394BD121\" />\r\n\r\n<meta
+        name=\"robots\" content=\"noydir, noodp, noarchive\" />\r\n\r\n\r\n<meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=utf-8\" />\r\n<meta name=\"Keywords\" content=\"Song
+        lyrics songlyrics music words palabras artists albums new songs\" />\r\n<meta
+        name=\"Description\" content=\"Massive Searchable, Browsable Free Song Lyrics
+        Archive\" />\r\n\r\n<meta property=\"fb:admins\" content=\"31113169,100000933112467,1383859676\"
+        />\r\n<meta property=\"fb:app_id\" content=\"162756950414085\" />\r\n<meta
+        property=\"og:type\" content=\"website\"/>\r\n<link rel=\"icon\" href=\"http://slmain.songlyricscom.netdna-cdn.com/favicon.ico\"
+        type=\"image/ico\" />\r\n\r\n<link href=\"http://slmain.songlyricscom.netdna-cdn.com/css/global.min.css\"
+        rel=\"stylesheet\" type=\"text/css\" />\r\n\r\n<title>Lyrics</title>\r\n\r\n<script
+        src=\"http://slmain.songlyricscom.netdna-cdn.com/js/jquery.plugins.min.js\"
+        type=\"text/javascript\"></script>\r\n\r\n<script type=\"text/javascript\">\r\n\r\n
+        \ var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-235369-1']);\r\n
+        \ _gaq.push(['_trackPageview']);\r\n  _gaq.push(['_trackPageLoadTime']);\r\n\r\n
+        \ (function() {\r\n    var ga = document.createElement('script'); ga.type
+        = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\r\n  })();\r\n\r\n</script>\r\n\r\n<!-- head info -->\r\n\r\n\r\n<script
+        type='text/javascript'>\r\nvar googletag = googletag || {};\r\ngoogletag.cmd
+        = googletag.cmd || [];\r\n(function() {\r\nvar gads = document.createElement('script');\r\ngads.async
+        = true;\r\ngads.type = 'text/javascript';\r\nvar useSSL = 'https:' == document.location.protocol;\r\ngads.src
+        = (useSSL ? 'https:' : 'http:') + \r\n'//www.googletagservices.com/tag/js/gpt.js';\r\nvar
+        node = document.getElementsByTagName('script')[0];\r\nnode.parentNode.insertBefore(gads,
+        node);\r\n})();\r\n</script>\r\n\r\n<script type='text/javascript'>\r\ngoogletag.cmd.push(function()
+        {\r\ngoogletag.defineSlot('/1008608/GENERIC_160_ATF', [160, 600], 'div-gpt-ad-1326498200950-0').addService(googletag.pubads());\r\ngoogletag.defineSlot('/1008608/GENERIC_300_ATF',
+        [300, 250], 'div-gpt-ad-1326498200950-1').addService(googletag.pubads());\r\ngoogletag.defineSlot('/1008608/GENERIC_300_BTF1',
+        [300, 250], 'div-gpt-ad-1326498200950-2').addService(googletag.pubads());\r\ngoogletag.defineSlot('/1008608/GENERIC_300_BTF2',
+        [300, 250], 'div-gpt-ad-1326498200950-3').addService(googletag.pubads());\r\ngoogletag.defineSlot('/1008608/GENERIC_728_ATF',
+        [728, 90], 'div-gpt-ad-1326498200950-4').addService(googletag.pubads());\r\ngoogletag.defineSlot('/1008608/GENERIC_728_BTF',
+        [728, 90], 'div-gpt-ad-1326498200950-5').addService(googletag.pubads());\r\ngoogletag.pubads().enableSingleRequest();\r\ngoogletag.enableServices();\r\n});\r\n</script>\r\n\r\n</head>\r\n<body>\r\n\r\n\r\n<!--\r\nWe
+        use the JS SDK to provide a richer user experience. For more info,\r\nlook
+        here: http://github.com/facebook/connect-js\r\n-->\r\n<div id=\"fb-root\"></div>\r\n<script>\r\nwindow.fbAsyncInit
+        = function() {\r\nFB.init({ \r\nappId : '162756950414085',\r\nsession : null,
+        // don't refetch the session when PHP already has it\r\nstatus : true, //
+        check login status\r\ncookie : true, // enable cookies to allow the server
+        to access the session\r\nxfbml : true // parse XFBML\r\n\r\n});\r\n\r\n\r\n\r\n//
+        whenever the user logs in, we refresh the page\r\nFB.Event.subscribe('auth.login',
+        function() {\r\nwindow.location.reload();\r\n});\r\n\r\nFB.Event.subscribe('comment.create',
+        function(response) {\r\n\tfbCommentAdd(response);\r\n });\r\n \r\n};\r\n\r\n(function()
+        {\r\nvar e = document.createElement('script');\r\ne.src = document.location.protocol
+        + '//connect.facebook.net/en_US/all.js';\r\ne.async = true;\r\ndocument.getElementById('fb-root').appendChild(e);\r\n}());\r\n\r\n\r\n</script>\r\n\r\n<div
+        id=\"header\">\r\n\r\n<div id=\"headernav\">\r\n\t<div class=\"headinner\">\r\n\r\n\t\t<ul
+        class=\"menu floatleft\">\r\n\t\t\t<li class=\"mega\">\r\n\t\t\t  <h2><a href=\"/\">Lyrics</a></h2>\r\n\t\t\t\t<div>\r\n\t\t\t\t\t<p><a
+        href=\"/top-songs-lyrics.html\">Popular Lyrics</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/top100.php\">Billboard Hot 100</a></p>\r\n\t\t\t\t\t<p><a href=\"/top-upcoming-songs.html\">Upcoming
+        Lyrics</a></p>\r\n\t\t\t\t\t<p><a href=\"/latestAddedSongs\">Recently Added</a></p>\r\n\t\t\t\t\t<p
+        class=\"menu-hr\"></p>\r\n\t\t\t\t\t<p><a href=\"http://www.songlyrics.com/news/top-songs/2011/\">Top
+        Lyrics of 2011</a></p>\r\n\t\t\t\t\t<p><a href=\"http://www.songlyrics.com/news/top-songs/2010/\">Top
+        Lyrics of 2010</a></p>\r\n\t\t\t\t\t<p><a href=\"http://www.songlyrics.com/news/top-songs/2009/\">Top
+        Lyrics of 2009</a></p>\r\n\t\t\t\t\t<p><a href=\"http://www.songlyrics.com/news/top-songs/all-time/\">More
+        &raquo;</a></p>\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\t\t<li class=\"mega\">\r\n\t\t\t
+        \ <h2><a href=\"/top-artists-lyrics.html\">Artists</a></h2>\r\n\t\t\t\t<div>\r\n\t\t\t\t\t<p><a
+        href=\"/top-artists-lyrics.html\">Popular Artists</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/a/\">Artists A-Z</a></p>\r\n\t\t\t\t\t<p class=\"menu-hr\"></p>\r\n\t\t\t\t\t<p><a
+        href=\"/top-albums-lyrics.html\">Popular Albums</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/top-upcoming-albums.html\">Upcoming Albums</a></p>\r\n\t\t\t\t\t<p
+        class=\"menu-hr\"></p>\r\n\t\t\t\t\t<p><a href=\"/adele-lyrics/\">Adele</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/rihanna-lyrics/\">Rihanna</a></p>\r\n\t\t\t\t\t<p><a href=\"/katy-perry-lyrics/\">Katy
+        Perry</a></p>\r\n\t\t\t\t\t<p><a href=\"/lady-gaga-lyrics/\">Lady Gaga</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/lil-wayne-lyrics/\">Lil Wayne</a></p>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\t\t<li
+        class=\"mega\">\r\n\t\t\t  <h2><a href=\"/musicgenres.php\">Genres</a></h2>\r\n\t\t\t\t<div>\r\n\t\t\t\t\t<p><a
+        href=\"/rock-lyrics.php\" title=\"Rock Lyrics\">Rock</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/r-and-b-lyrics.php\" title=\"R&B Lyrics\">R&amp;B</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/country-music-lyrics.php\" title=\"Country Lyrics\">Country</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/hip-hop-rap-lyrics.php\" title=\"Hip Hop and Rap Lyrics\">Hip Hop/Rap</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/pop-lyrics.php\" title=\"Pop Lyrics\">Pop</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/christian-lyrics.php\" title=\"Christian Lyrics\">Christian</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/dance-lyrics.php\" title=\"Dance Lyrics\">Dance</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"/latin-lyrics.php\" title=\"Latin Lyrics\">Latin</a></p>\r\n\t\t\t\t\t<p
+        class=\"menu-hr\"></p>\r\n\t\t\t\t\t<p><a href=\"/musicgenres.php\" title=\"All
+        Genre Charts\">All Genres &raquo;</a></p>\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\t\t\r\n\t\t\t<li
+        class=\"mega\">\r\n\t\t\t  <h2><a href=\"http://www.songlyrics.com/news/\">News</a></h2>\r\n\t\t\t\t<div>\r\n\t\t\t\t\t<p><a
+        href=\"http://www.songlyrics.com/news/\">All News</a></p>\r\n\t\t\t\t\t<p><a
+        href=\"http://www.songlyrics.com/news/category/news-roundup/\">Daily Roundup</a></p>\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\r\n\t\t\t<li
+        class=\"mega\">\r\n\t\t\t\t<h2><a href=\"http://www.songlyrics.com/news/album-reviews/\">Reviews</a></h2>\r\n\t\t\t\t<div>\r\n\t\t\t
+        \ \t<p><a href=\"http://www.songlyrics.com/news/album-reviews/\">Album Reviews</a></p>\r\n\t\t\t
+        \ \t<p><a href=\"http://www.songlyrics.com/news/category/song-reviews/\">Song
+        Reviews</a></p>\r\n\t\t\t  </div>\r\n\t\t\t</li>\r\n\r\n\t\t\t<li class=\"mega\">\r\n\t\t\t
+        \ <h2><a href=\"http://www.songlyrics.com/news/category/spotlight/\">Spotlight</a></h2>\r\n\t\t\t</li>\r\n\t\t\t\r\n\t\t</ul>\r\n\r\n\t\t<ul
+        class=\"menu floatright\">\r\n\t\t\t<li class=\"mega\">\r\n\t\t\t\t<h2><a
+        href=\"https://www.facebook.com/SongLyrics\">Facebook</a></h2>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<h2><a
+        href=\"http://www.songlyrics.com/news/advertise/\">Advertise</a></h2>\r\n\t\t\t</li>\r\n\t\t\t<li
+        class=\"lasttab\">\r\n\t\t\t\t<h2><a href=\"http://www.songlyrics.com/news/submit-lyrics/\">Submit
+        Lyrics</a></h2>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\r\n\r\n\t</div><!-- end headerinner
+        -->\r\n</div><!-- end headernav -->\r\n\r\n<div class=\"headinner\">\r\n\r\n\t<a
+        id=\"logo\" href=\"/\" title=\"Lyrics\">Song Lyrics</a>\r\n\t\r\n\t<div id=\"header_search\">\r\n\t<form
+        name=\"searchForm\" class=\"searchForm\" method=\"get\" action=\"/index.php\">\r\n\t
+        <input type=\"hidden\" name=\"section\" value=\"search\" />\r\n\t\r\n\t<fieldset>\r\n\t\t<input
+        type=\"text\" name=\"searchW\" class=\"searchW input\" value=\"Search artists,
+        albums, and songs\" onfocus=\"if(this.value=='Search artists, albums, and
+        songs')(this.value='');\" onblur=\"if(this.value=='')(this.value='Search artists,
+        albums, and songs');\" />\r\n\t\t<div class=\"submit-btn\"><input type=\"submit\"
+        name=\"submit\" value=\"Search\" class=\"submit-input-wrapped searchSubmit\"
+        /></div>\r\n\t</fieldset>\r\n\t</form>\r\n\t</div>\r\n\r\n</div><!-- end headerinner
+        -->\r\n</div><!-- end header -->\r\n\r\n<div id=\"wrapper\">\r\n\t<div id=\"social-top\">\r\n\t</div>\r\n\r\n<div
+        class=\"masthead\">\r\n\r\n\t<!-- GENERIC_728_ATF -->\r\n\t<div id='div-gpt-ad-1326498200950-4'
+        class=\"ad-728-90\">\r\n\t<script type='text/javascript'>\r\n\tgoogletag.cmd.push(function()
+        { googletag.display('div-gpt-ad-1326498200950-4'); });\r\n\t</script>\r\n\t</div>\r\n\r\n</div>\r\n\r\n<div
+        class=\"wrapper-inner\">\r\n\r\n\t<div class=\"topnav\">\r\n\t\t\t\r\n\t\t\t<ul
+        class=\"breadcrumb\">\r\n\t\t\t\t<li class=\"home\"><a href=\"/\" title=\"Lyrics\"><span>Lyrics</span></a></li>\r\n\t\t\t\t<li
+        class=\"current\">Page Not Found</li>\r\n\t\t\t</ul>\r\n\t\r\n\t</div><!--
+        end topnav -->\r\n\r\n<div class=\"colone-wide\">\r\n<div class=\"pagetitle\">\r\n\t<h1>The
+        page you're looking for cannot be found.</h1>\r\n</div>\r\n\r\n<div class=\"goog-search\">\r\n<script
+        type=\"text/javascript\">\r\n  var GOOG_FIXURL_LANG = 'en';\r\n  var GOOG_FIXURL_SITE
+        = 'http://www.songlyrics.com/';\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js\"></script>\r\n</div>\r\n\r\n</div><!--
+        end colone-wide -->\r\n\r\n\r\n<div class=\"colthree\">\r\n\r\n\t<div class=\"adblock\">\r\n\t\t\r\n\t\t<!--
+        GENERIC_300_ATF -->\r\n\t\t<div id='div-gpt-ad-1326498200950-1' class=\"ad-300-250\">\r\n\t\t<script
+        type='text/javascript'>\r\n\t\tgoogletag.cmd.push(function() { googletag.display('div-gpt-ad-1326498200950-1');
+        });\r\n\t\t</script>\r\n\t\t</div>\t\r\n\t\t\r\n\t\t<a class=\"ad-text\" href=\"http://www.songlyrics.com/news/advertise/\">Advertise</a>\r\n\t\r\n\t</div>\t\r\n\r\n\t<div
+        class=\"box\">\r\n\t\t<div class=\"listbox\">\r\n\t\t\t<h3 class=\"listbox-title\">Top
+        Songs by Year</h3>\t\t\t \t\r\n\t\t\t<a href=\"http://www.songlyrics.com/news/top-songs/all-time/\"
+        title=\"Top Songs\"><img alt=\"Top Songs\" width=\"298\" height=\"74\" src=\"{$APPURL_IMG}images/all-time.gif\"
+        /></a>\r\n\t\t\t\t<ul class=\"tracklist listtop\">\t\t\t\t\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/all-time/\">All Time</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/2011/\">2011</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/2000/\">2000</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/1990/\">1990</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/1980/\">1980</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/1970/\">1970</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/1960/\">1960</a></li>\r\n\t\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/top-songs/1950/\">1950</a></li>\t\r\n\t\t\t</ul>\t\t\t\t\t\r\n\t\t</div>\r\n\t</div>\r\n\r\n\t<div
+        class=\"adblock\">\r\n\t\t\r\n\t\t<!-- GENERIC_300_BTF1 -->\r\n\t\t<div id='div-gpt-ad-1326498200950-2'
+        class=\"ad-300-250\">\r\n\t\t<script type='text/javascript'>\r\n\t\tgoogletag.cmd.push(function()
+        { googletag.display('div-gpt-ad-1326498200950-2'); });\r\n\t\t</script>\r\n\t\t</div>\t\t\r\n\t\r\n\t</div>\r\n\t\r\n</div>\r\n\r\n</div>
+        <!--end wrapper-inner-->\r\n\r\n<div class=\"adblock-wide\">\r\n\r\n\t<!--
+        GENERIC_728_BTF -->\r\n\t<div id='div-gpt-ad-1326498200950-5' class=\"ad-728-90\">\r\n\t<script
+        type='text/javascript'>\r\n\tgoogletag.cmd.push(function() { googletag.display('div-gpt-ad-1326498200950-5');
+        });\r\n\t</script>\r\n\t</div>\r\n\r\n</div>\r\n\r\n</div> <!-- end wrapper
+        -->\r\n\r\n<div class=\"footer\">\r\n<table class=\"footer-inner\">\r\n<tbody>\r\n\r\n<tr>\r\n\r\n\t<td
+        width=\"145\">\r\n\t\t<h3>Genres</h3>\r\n\t\t<ul>\r\n\t\t\t<li><a href=\"/rock-lyrics.php\"
+        title=\"Rock Lyrics\">Rock</a></li>\r\n\t\t\t<li><a href=\"/r-and-b-lyrics.php\"
+        title=\"R&B Lyrics\">R&amp;B</a></li>\r\n\t\t\t<li><a href=\"/country-music-lyrics.php\"
+        title=\"Country Lyrics\">Country</a></li>\r\n\t\t\t<li><a href=\"/hip-hop-rap-lyrics.php\"
+        title=\"Hip Hop and Rap Lyrics\">Hip Hop/Rap</a></li>\r\n\t\t\t<li><a href=\"/pop-lyrics.php\"
+        title=\"Pop Lyrics\">Pop</a></li>\r\n\t\t\t<li><a href=\"/christian-lyrics.php\"
+        title=\"Christian Lyrics\">Christian</a></li>\r\n\t\t</ul>\r\n\t</td>\r\n\r\n\t<td
+        width=\"170\">\r\n\t\t<h3>Top Lyrics</h3>\r\n\t\t<ul>\r\n\t\t\t<li><a href=\"/top-songs-lyrics.html\">Top
+        Songs</a></li>\r\n\t\t\t<li><a href=\"/top-artists-lyrics.html\">Top Artists</a></li>\r\n\t\t\t<li><a
+        href=\"/top-albums-lyrics.html\">Top Albums</a></li>\r\n\t\t\t<li><a href=\"/top-upcoming-songs.html\">Upcoming
+        Songs</a></li>\r\n\t\t\t<li><a href=\"/top-upcoming-albums.html\">Upcoming
+        Albums</a></li>\r\n\t\t\t<li><a href=\"/top100.php\" title=\"Billboard Hot
+        100 Songs\">Billboard Hot 100</a></li>\r\n\t\t</ul>\r\n\t</td>\r\n\r\n\t<td
+        width=\"180\">\r\n\t\t<h3>SongLyrics</h3>\r\n\t\t<ul>\r\n\t\t\t<li><a href=\"http://www.songlyrics.com/news/advertise/\"
+        title=\"Advertise on SongLyrics.com\">Advertise on SL</a></li>\r\n\t\t\t<li><a
+        href=\"http://www.songlyrics.com/news/featured-blogs/\" title=\"Featured Blogs\">Featured
+        Blogs</a></li>\r\n\t\t\t<li><a href=\"http://www.songlyrics.com/news/contact-us/\"
+        title=\"Contact Us\">Contact Us</a></li>\r\n\t\t\t<li><a href=\"http://www.songlyrics.com/news\"
+        title=\"Music News\">Music News</a></li>\r\n\t\t\t<li><a href=\"/privacy.php\"
+        title=\"Privacy Policy\">Privacy Policy</a></li>\r\n\t\t\t<li><a href=\"/termsconditions.php\"
+        title=\"Terms of Use\">Terms of Use</a></li>\r\n\t\t</ul>\r\n\t</td>\r\n\t\r\n\t<td
+        width=\"309\">&nbsp;</td>\r\n\r\n\t<td width=\"210\" class=\"td-footer-last\">\r\n\t\t<h3>Company</h3>\r\n\t\t<ul>\r\n\t\t\t<li
+        class=\"ftlast-li\">Copyright &copy; <script type=\"text/javascript\">var
+        d = new Date();document.write(d.getFullYear());</script> SongLyrics</li>\r\n\t\t\t<li
+        class=\"ftlast-li\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"ft-social\">Follow
+        us:</li>\r\n\t\t\t\t\t<li class=\"ft-social\"><a class=\"ft-fb\" href=\"http://www.facebook.com/SongLyrics\"
+        target=\"_blank\" title=\"SongLyrics on Facebook\">Facebook</a></li>\r\n\t\t\t\t\t<li
+        class=\"ft-social\"><a class=\"ft-tw\" href=\"http://twitter.com/#!/songlyrics\"
+        target=\"_blank\" title=\"Follow SongLyrics on Twitter\">Twitter</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</li>\r\n\t\t\t<li
+        class=\"ftlast-li\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li class=\"ft-logo\"><a
+        class=\"ft-sm\" href=\"http://www.soundmedia.com/\" target=\"_blank\" title=\"Advertise
+        on SongLyrics\">SoundMedia</a></li>\r\n\t\t\t\t\t<li class=\"ft-logo\"><a
+        class=\"ft-tf\" href=\"http://www.tonemedia.com/\" target=\"_blank\" title=\"ToneMedia
+        Digital Media Platform\">ToneMedia</a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t</td>\r\n\t\r\n</tr>\r\n\r\n</tbody>\r\n</table>\r\n\r\n<div
+        id=\"footer-bottom\">\r\n\r\n\t<ul id=\"footer-artists\">\r\n\t\t<li><h4>Artists:</h4></li>\r\n\t\t<li><a
+        href=\"/a/\" title=\"A\">A</a></li>\r\n\t\t<li><a href=\"/b/\" title=\"B\">B</a></li>\r\n\t\t<li><a
+        href=\"/c/\" title=\"C\">C</a></li>\r\n\t\t<li><a href=\"/d/\" title=\"D\">D</a></li>\r\n\t\t<li><a
+        href=\"/e/\" title=\"E\">E</a></li>\r\n\t\t<li><a href=\"/f/\" title=\"F\">F</a></li>\r\n\t\t<li><a
+        href=\"/g/\" title=\"G\">G</a></li>\r\n\t\t<li><a href=\"/h/\" title=\"H\">H</a></li>\r\n\t\t<li><a
+        href=\"/i/\" title=\"I\">I</a></li>\r\n\t\t<li><a href=\"/j/\" title=\"J\">J</a></li>\r\n\t\t<li><a
+        href=\"/k/\" title=\"K\">K</a></li>\r\n\t\t<li><a href=\"/l/\" title=\"L\">L</a></li>\r\n\t\t<li><a
+        href=\"/m/\" title=\"M\">M</a></li>\r\n\t\t<li><a href=\"/n/\" title=\"N\">N</a></li>\r\n\t\t<li><a
+        href=\"/o/\" title=\"O\">O</a></li>\r\n\t\t<li><a href=\"/p/\" title=\"P\">P</a></li>\r\n\t\t<li><a
+        href=\"/q/\" title=\"Q\">Q</a></li>\r\n\t\t<li><a href=\"/r/\" title=\"R\">R</a></li>\r\n\t\t<li><a
+        href=\"/s/\" title=\"S\">S</a></li>\r\n\t\t<li><a href=\"/t/\" title=\"T\">T</a></li>\r\n\t\t<li><a
+        href=\"/u/\" title=\"U\">U</a></li>\r\n\t\t<li><a href=\"/v/\" title=\"V\">V</a></li>\r\n\t\t<li><a
+        href=\"/w/\" title=\"W\">W</a></li>\r\n\t\t<li><a href=\"/x/\" title=\"X\">X</a></li>\r\n\t\t<li><a
+        href=\"/y/\" title=\"Y\">Y</a></li>\r\n\t\t<li><a href=\"/z/\" title=\"Z\">Z</a></li>\r\n\t\t<li><a
+        href=\"/0/\" title=\"#\">#</a></li>\r\n\t</ul>\r\n\r\n</div><!-- end footer-bottom
+        -->\r\n\r\n</div><!-- end footer -->\r\n\r\n<!-- Start of StatCounter Code
+        -->\r\n<script type=\"text/javascript\">\r\nvar sc_project=5948185;\r\nvar
+        sc_invisible=1;\r\nvar sc_security=\"1ddaab37\";\r\n</script>\r\n\r\n<script
+        type=\"text/javascript\" src=\"http://www.statcounter.com/counter/counter_xhtml.js\"></script>\r\n<noscript><div
+        class=\"statcounter\"><a title=\"drupal statistics module\" class=\"statcounter\"
+        href=\"http://www.statcounter.com/drupal/\"><img class=\"statcounter\" src=\"http://c.statcounter.com/5948185/0/1ddaab37/1/\"
+        alt=\"drupal statistics module\" /></a></div></noscript>\r\n<!-- End of StatCounter
+        Code -->\r\n\r\n\r\n<!-- Begin comScore Tag -->\r\n<script type=\"text/javascript\">\r\ndocument.write(unescape(\"%3Cscript
+        src='\" + (document.location.protocol == \"https:\" ? \"https://sb\" : \"http://b\")
+        + \".scorecardresearch.com/beacon.js'%3E%3C/script%3E\"));\r\n</script>\r\n<script
+        type=\"text/javascript\">\r\n\r\nCOMSCORE.beacon({\r\n\tc1: 2,\r\n\tc2: \"6772046\",\r\n\tc3:
+        \"\",\r\n\tc4: document.location.href, // Replace this with the page URL that
+        the site is on here, and also enter it into the <noscript> img below\r\n\tc5:
+        \"\",\r\n\tc6: \"\",\r\n\tc15: \"\"\r\n});\r\n\r\n</script>\r\n\r\n<noscript>\r\n\t<img
+        src=\"http://b.scorecardresearch.com/p?c1=2&c2=6772046&c3=&c4=www.songlyrics.com&c5=&c6=&c15=&cj=1\"
+        />\r\n</noscript>\r\n<!-- End comScore Tag -->\r\n\r\n</body>\r\n</html>\r\n"
+    http_version: '1.1'
+  recorded_at: Thu, 03 Jan 2013 03:12:28 GMT
+recorded_with: VCR 2.3.0

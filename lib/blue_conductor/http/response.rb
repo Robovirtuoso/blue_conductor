@@ -4,7 +4,7 @@ module BlueConductor
 
       def self.parse(html)
         doc = Nokogiri::HTML(html)
-        doc.css('div#main div')[3].text
+        doc.css('p#songLyricsDiv').text
       end
     end
   end

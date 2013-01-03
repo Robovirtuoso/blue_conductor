@@ -20,6 +20,7 @@ module BlueConductor
   end
 
   def self.record_for(band, record_title)
-    # BlueConductor::BandManager.new(band, song).record!
+    # manager               = BlueConductor::Producer.new(band, record_title).record!
+    # manager.url_generator = BlueConductor::HTTP::UrlGenerator
   end
 end

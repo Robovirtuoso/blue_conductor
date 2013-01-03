@@ -6,7 +6,7 @@ require "blue_conductor/version"
 Gem::Specification.new do |gem|
   gem.name          = "blue_conductor"
   gem.version       = BlueConductor::VERSION
-  gem.authors       = ["Alex Williams", "Craig Williams"]
+  gem.authors       = ["Alex Williams"]
   gem.email         = ["alexwilliams4@me.com"]
   gem.description   = %q{Scrapes azLyrics.com for song lyrics}
   gem.summary       = %q{azlyrics.com scraper}
