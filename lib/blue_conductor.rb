@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
+require 'net/http'
 
 require_relative 'blue_conductor/version'
 require_relative 'blue_conductor/band_manager'

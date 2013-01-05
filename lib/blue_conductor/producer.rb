@@ -15,8 +15,12 @@ module BlueConductor
       html      = request.fetch(url)
       tracklist = parser.parse(html)
 
-      @songs = tracklist.map do |song|
-        BlueConductor.song_for(@band, song)
+      if tracklist.nil? || tracklist.empty?
+        @error = 'The album requested is not available || there was a spelling error'
+      else
+        @songs = tracklist.map do |song|
+          BlueConductor.song_for(@band, song)
+        end
       end
 
       self

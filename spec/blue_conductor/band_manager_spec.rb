@@ -7,8 +7,6 @@ describe BlueConductor::BandManager do
   let(:song) { 'Unchained' }
   let(:data) { "Change, nothin' stays the same" }
   let(:album) { 'Fair Warning' }
-  let(:manager_mock) { mock(band: band, song: song, data: data) }
-  let(:song_object) { BlueConductor::Song.new(manager_mock) }
 
   before do
     subject.url_generator = BlueConductor::HTTP::Song::UrlGenerator
