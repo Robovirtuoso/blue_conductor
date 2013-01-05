@@ -25,6 +25,7 @@ describe BlueConductor do
       end
 
       @record.band.should == band
+      @record.title.should == album
       @record.songs.count.should == 14
     end
   end
