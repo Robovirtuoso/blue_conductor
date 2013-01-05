@@ -1,6 +1,6 @@
 module BlueConductor
-  module SongFor
-    module HTTP
+  module HTTP
+    module Song
       class Response
 
         def self.data(html)

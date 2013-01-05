@@ -6,18 +6,17 @@ module BlueConductor
     def initialize(band, record_title)
       @band = band
       @title = record_title
-      @songs = []
+      @songs = nil
       @error = ''
     end
 
     def record!
-      url  = url_generator.generate(self)
-      html = request.fetch(url)
-      tracklist =  parser.parse(html)
+      url       = url_generator.generate(self)
+      html      = request.fetch(url)
+      tracklist = parser.parse(html)
 
-      tracklist.each do |song|
-        song_object = BlueConductor.song_for(@band, song)
-        @songs << song_object
+      @songs = tracklist.map do |song|
+        BlueConductor.song_for(@band, song)
       end
 
       self

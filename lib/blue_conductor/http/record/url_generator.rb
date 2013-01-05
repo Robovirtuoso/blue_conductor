@@ -1,11 +1,11 @@
 module BlueConductor
-  module RecordFor
-    module HTTP
+  module HTTP
+    module Record
       class UrlGenerator
         BASE_URI = "http://www.songlyrics.com/"
 
         def self.generate(producer)
-          sanitizer = BlueConductor::RecordFor::Sanitizer.new(producer)
+          sanitizer = BlueConductor::HTTP::Record::Sanitizer.new(producer)
           sanitizer.clean
 
           "#{BASE_URI}#{sanitizer.band}/#{sanitizer.title}/"

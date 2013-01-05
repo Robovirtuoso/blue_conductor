@@ -5,11 +5,15 @@ describe BlueConductor::Producer do
 
   let(:band) { 'Van Halen' }
   let(:record) { 'Fair Warning' }
+  let(:track_list) { ['Dirty Movies', 'Hear About It Later', 'One Foot Out The Door', 
+                      'Push Comes to Shove', "Sinner's Swing", 'So This Is Love?', 
+                      'Sunday Afternoon In The Park', 'Unchained', 'Mean Street'
+                     ]}
 
   before do
-    subject.url_generator  = BlueConductor::RecordFor::HTTP::UrlGenerator
-    subject.request        = BlueConductor::RecordFor::HTTP::Request
-    subject.parser         = BlueConductor::RecordFor::HTTP::Response
+    subject.url_generator  = BlueConductor::HTTP::Record::UrlGenerator
+    subject.request        = BlueConductor::HTTP::Request
+    subject.parser         = BlueConductor::HTTP::Record::Response
   end
 
   describe '.new' do
@@ -26,7 +30,7 @@ describe BlueConductor::Producer do
           @record = subject.record!
         end
 
-        @record.songs.count.should == 9
+        @record.songs.map(&:title).should == track_list
       end
     end
   end
