@@ -28,10 +28,10 @@ module BlueConductor
   end
 
   def self.record_for(band, record_title)
-    producer               = BlueConductor::Producer.new(band, record_title).record!
+    producer               = BlueConductor::Producer.new(band, record_title)
     producer.url_generator = BlueConductor::HTTP::Record::UrlGenerator
-    producer.request       = BlueConducter::HTTP::Request
-    producer.parser        = BlueConducter::HTTP::Record::Response
+    producer.request       = BlueConductor::HTTP::Request
+    producer.parser        = BlueConductor::HTTP::Record::Response
 
     producer.record!
   end

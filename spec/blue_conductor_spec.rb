@@ -3,8 +3,8 @@ require 'spec_helper'
 describe BlueConductor do
   subject { BlueConductor }
 
-  let(:band) { 'AC/DC' }
-  let(:song) { 'Back in Black' }
+  let(:band)  { 'ACDC' }
+  let(:song)  { 'Back in Black' }
   let(:album) { 'Back in Black' }
 
   describe '.song_for' do
@@ -20,10 +20,12 @@ describe BlueConductor do
 
   describe '.record_for' do
     it 'returns an array of songs' do
-      @record = subject.record_for(band, album)
+      VCR.use_cassette 'blue_conductor_album' do
+        @record = subject.record_for(band, album)
+      end
 
       @record.band.should == band
-      @record.tracks.should =~ /Back in Black/
+      @record.songs.count.should == 14
     end
   end
 end
