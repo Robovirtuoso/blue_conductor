@@ -5,7 +5,7 @@ module BlueConductor
 
         def self.parse(html)
           doc = Nokogiri::HTML(html)
-          doc.css('.rightcol .tracklist td a').map &:text
+          doc.css('.rightcol .tracklist td a').map(&:text)
         end
       end
     end

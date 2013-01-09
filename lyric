@@ -15,6 +15,7 @@ track = BlueConductor.song_for(band, song)
 puts '*'*100
 puts "Band: #{track.band}"
 puts "Title: #{track.title}"
+puts "Album: #{track.album}"
 puts "Lyrics:"
 puts '-'*100
 puts track.lyrics

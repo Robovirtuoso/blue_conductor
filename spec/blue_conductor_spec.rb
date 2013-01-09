@@ -3,7 +3,7 @@ require 'spec_helper'
 describe BlueConductor do
   subject { BlueConductor }
 
-  let(:band)  { 'ACDC' }
+  let(:band)  { 'AC/DC' }
   let(:song)  { 'Back in Black' }
   let(:album) { 'Back in Black' }
 
