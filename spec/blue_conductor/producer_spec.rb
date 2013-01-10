@@ -31,6 +31,7 @@ describe BlueConductor::Producer do
         end
 
         @record.songs.map(&:title).should == track_list
+        @record.image.should == 'http://cdn1.songlyricscom.netdna-cdn.com/album_covers/202/van-halen-fair-warning/van-halen-6832-fair-warning.jpg'
       end
     end
 
@@ -48,6 +49,7 @@ describe BlueConductor::Producer do
           @record.band.should == band
           @record.title.should == record
           @record.songs.should == nil
+          @record.image.should == ''
       end
     end
   end

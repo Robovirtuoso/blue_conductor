@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = BlueConductor::VERSION
   gem.authors       = ["Alex Williams"]
   gem.email         = ["alexwilliams4@me.com"]
-  gem.description   = %q{Scrapes azLyrics.com for song lyrics}
-  gem.summary       = %q{azlyrics.com scraper}
+  gem.description   = %q{Scrapes songlyrics.com for song lyrics}
+  gem.summary       = %q{songlyrics.com scraper}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
