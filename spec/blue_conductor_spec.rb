@@ -29,4 +29,14 @@ describe BlueConductor do
       @record.songs.count.should == 14
     end
   end
+
+  describe '.art_for' do
+    it 'returns album artwork' do
+      VCR.use_cassette 'album-artwork' do
+        @artwork = subject.art_for(band, album)
+      end
+
+      @artwork.image.should =~ /back-in-black/
+    end
+  end
 end

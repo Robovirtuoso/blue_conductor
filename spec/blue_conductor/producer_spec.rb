@@ -14,6 +14,7 @@ describe BlueConductor::Producer do
     subject.url_generator  = BlueConductor::HTTP::Record::UrlGenerator
     subject.request        = BlueConductor::HTTP::Request
     subject.parser         = BlueConductor::HTTP::Record::Response
+    subject.image_parser   = BlueConductor::HTTP::Art::Response
   end
 
   describe '.new' do

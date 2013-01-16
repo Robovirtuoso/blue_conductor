@@ -5,6 +5,7 @@ require 'net/http'
 require_relative 'blue_conductor/version'
 require_relative 'blue_conductor/band_manager'
 require_relative 'blue_conductor/producer'
+require_relative 'blue_conductor/designer'
 require_relative 'blue_conductor/song'
 
 require_relative 'blue_conductor/http/request'
@@ -16,6 +17,8 @@ require_relative 'blue_conductor/http/song/url_generator'
 require_relative 'blue_conductor/http/record/sanitizer'
 require_relative 'blue_conductor/http/record/response'
 require_relative 'blue_conductor/http/record/url_generator'
+
+require_relative 'blue_conductor/http/art/response'
 
 
 module BlueConductor
@@ -33,7 +36,17 @@ module BlueConductor
     producer.url_generator = BlueConductor::HTTP::Record::UrlGenerator
     producer.request       = BlueConductor::HTTP::Request
     producer.parser        = BlueConductor::HTTP::Record::Response
+    producer.image_parser  = BlueConductor::HTTP::Art::Response
 
     producer.record!
+  end
+
+  def self.art_for(band, record_title)
+    designer               = BlueConductor::Designer.new(band, record_title)
+    designer.url_generator = BlueConductor::HTTP::Record::UrlGenerator
+    designer.request       = BlueConductor::HTTP::Request
+    designer.parser        = BlueConductor::HTTP::Art::Response
+
+    designer.draw!
   end
 end

@@ -1,7 +1,7 @@
 module BlueConductor
   class Producer
     attr_reader :band, :title, :songs, :image, :error
-    attr_accessor :url_generator, :request, :parser
+    attr_accessor :url_generator, :request, :parser, :image_parser
 
     def initialize(band, record_title)
       @band = band
@@ -19,7 +19,7 @@ module BlueConductor
       if tracklist.nil? || tracklist.empty?
         @error = 'The album requested is not available || there was a spelling error'
       else
-        @image = parser.parse_image(html)
+        @image = image_parser.parse(html)
 
         @songs = tracklist.map do |song|
           BlueConductor.song_for(@band, song)

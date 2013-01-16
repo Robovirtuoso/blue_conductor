@@ -1,14 +1,13 @@
 module BlueConductor
   module HTTP
-    module Record
+    module Art
       class Response
 
         def self.parse(html)
           doc = Nokogiri::HTML(html)
-          doc.css('.rightcol .tracklist td a').map(&:text)
+          doc.css('.leftcol img')[0]['src']
         end
       end
     end
   end
 end
-
