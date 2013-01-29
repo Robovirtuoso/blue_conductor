@@ -1,23 +1,25 @@
 module BlueConductor
   class BandManager
-    attr_reader :band, :song, :data, :album
-    attr_accessor :url_generator, :request, :parser
+    attr_reader :band, :song, :lyrics, :album
 
     def initialize(band, song)
-      @band = band
-      @song = song
-      @album = ''
-      @data = ''
+      @band     = band
+      @song     = song
     end
 
-    def song!
-      url   = url_generator.generate(self)
-      html  = request.fetch(url)
+    def create_song
+      url       = URL::UrlGenerator.new(self, :song).url
+      html      = HTTP::Request.fetch(url)
+      song_data = HTTP::Response::Responder.parse(html, HTTP::Response::Song)
 
-      @data = parser.data(html)
-      @album = parser.album(html)
+      @lyrics   = song_data[:lyrics]
+      @album    = song_data[:album_title]
 
-      BlueConductor::Song.new(self)
+      Song.new(self)
+    end
+
+    def data
+      song
     end
   end
 end

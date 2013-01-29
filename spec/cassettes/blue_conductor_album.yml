@@ -18716,4 +18716,619 @@ http_interactions:
         IERhdGUoKS5nZXRUaW1lKCldKTs8L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+
     http_version: '1.1'
   recorded_at: Tue, 08 Jan 2013 23:42:28 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/back-in-black
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:46:00 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=uq5pl923v4f45eeflno8v4e486; path=/
+      location:
+      - http://www.songlyrics.com/acdc/back-in-black/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:45:58 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/back-in-black-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:13 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=meoqcu4b65ri134jda4shm1v64; path=/
+      location:
+      - http://www.songlyrics.com/acdc/back-in-black-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:11 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/giving-the-dog-a-bone-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:13 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=9h02tqg2vu2nblagksu2qq6231; path=/
+      location:
+      - http://www.songlyrics.com/acdc/giving-the-dog-a-bone-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:11 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/have-a-drink-on-me-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:14 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=apfmq7e4n6a36ddtiig66nshj0; path=/
+      location:
+      - http://www.songlyrics.com/acdc/have-a-drink-on-me-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:11 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/hells-bells-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:14 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=stp6igitn0j9ggdcbfr57vopn0; path=/
+      location:
+      - http://www.songlyrics.com/acdc/hells-bells-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:12 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/let-me-put-my-love-into-you-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:15 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=cr58euqtefnolqrtdui6b3v2i4; path=/
+      location:
+      - http://www.songlyrics.com/acdc/let-me-put-my-love-into-you-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:12 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/rock-and-roll-ain-t-noise-pollution-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:15 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=jp8icq951s5kjcj065a24sra84; path=/
+      location:
+      - http://www.songlyrics.com/acdc/rock-and-roll-ain-t-noise-pollution-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:13 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/shake-a-leg-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:16 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=ol5li16htoic8s3ntjl3mlpi33; path=/
+      location:
+      - http://www.songlyrics.com/acdc/shake-a-leg-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:13 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/shoot-to-thrill-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:16 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=m7177fkgaj9m5f75p95q9c2cf4; path=/
+      location:
+      - http://www.songlyrics.com/acdc/shoot-to-thrill-ost-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:13 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/what-do-you-do-for-money-honey-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:16 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=omntboof3a295vq8e61phq3ib4; path=/
+      location:
+      - http://www.songlyrics.com/acdc/what-do-you-do-for-money-honey-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:14 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/you-shook-me-all-night-long-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:17 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=vih00nu9fg78tp24k0fla2edb7; path=/
+      location:
+      - http://www.songlyrics.com/acdc/you-shook-me-all-night-long-ost-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:14 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/big-balls-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:17 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=hbu2ph1jd36l5g5uhhf5vcm132; path=/
+      location:
+      - http://www.songlyrics.com/acdc/big-balls-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:15 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/hell-bells--ost--lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:18 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=q1s4r8qrglc858ah60h2umhmf0; path=/
+      location:
+      - http://www.songlyrics.com/acdc/hell-bells-ost-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:15 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/shoot-to-thrill--ost--lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:18 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=9r6flu2k8n841c7d9g4dlhnpk1; path=/
+      location:
+      - http://www.songlyrics.com/acdc/shoot-to-thrill-ost-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:16 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/ac-dc/you-shook-me-all-night-long--ost--lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:50:18 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=nouphjcvut4i0vo16oosjl2gg6; path=/
+      location:
+      - http://www.songlyrics.com/acdc/you-shook-me-all-night-long-ost-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:50:16 GMT
 recorded_with: VCR 2.3.0

@@ -1,19 +1,19 @@
 module BlueConductor
   class Designer
-    attr_accessor :url_generator, :request, :parser
-    attr_reader :image, :band, :title
+    attr_reader :image, :band, :album
 
-    def initialize(band, record)
+    def initialize(band, album)
       @band   = band
-      @title  = record
+      @album  = album
+
+      url     = URL::UrlGenerator.new(self, :album).url
+      html    = HTTP::Request.fetch(url)
+
+      @image  = HTTP::Response::Responder.parse(html, HTTP::Response::AlbumArt)
     end
 
-    def draw!
-      uri    = url_generator.generate(self)
-      html   = request.fetch(uri)
-      @image = parser.parse(html)
-
-      self
+    def data
+      album
     end
   end
 end

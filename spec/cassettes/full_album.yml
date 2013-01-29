@@ -20353,4 +20353,414 @@ http_interactions:
         dFRpbWUoKV0pOzwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4=
     http_version: '1.1'
   recorded_at: Tue, 08 Jan 2013 23:44:40 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/fair-warning
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:10 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=cthgpkdhij7ua51at942oj9ju5; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/fair-warning/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/dirty-movies-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:10 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=9h3drsb16gu0laes51mp7p18r3; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/dirty-movies-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/hear-about-it-later-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:11 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=7sjt3d8i2a21ftkubrt8pkv0m4; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/hear-about-it-later-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/one-foot-out-the-door-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:11 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=6ehm7mbek8hbn081v0k6nk4mr4; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/one-foot-out-the-door-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/push-comes-to-shove-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:11 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=f3aoo8fpsglscimttl3aog1c40; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/push-comes-to-shove-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/sinner-s-swing-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:11 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=6eqd07aevfed6bn9441uhs3ci6; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/sinner-s-swing-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:08 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/so-this-is-love--lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:12 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=h0832j1mp8c47bqed802tk6p77; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/so-this-is-love-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:09 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/sunday-afternoon-in-the-park-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:12 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=4fdn36kjld4r24ggcrtfiuprk6; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/sunday-afternoon-in-the-park-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:09 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/unchained-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:12 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=7sk3ggrlq7t2s14ns0gbdm75k0; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/unchained-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:09 GMT
+- request:
+    method: get
+    uri: http://www.songlyrics.com/van-halen/mean-street-lyrics
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      date:
+      - Mon, 28 Jan 2013 22:59:13 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.2.10
+      set-cookie:
+      - PHPSESSID=52qm4or0dtoo0gjdsd5nq7bbn2; path=/
+      location:
+      - http://www.songlyrics.com/van-halen/mean-street-lyrics/
+      connection:
+      - close
+      vary:
+      - Accept-Encoding
+      cache-control:
+      - public, max-age=7200
+      content-length:
+      - '0'
+      content-type:
+      - text/html; charset=utf-8
+    body:
+      encoding: US-ASCII
+      string: ''
+    http_version: '1.1'
+  recorded_at: Mon, 28 Jan 2013 22:59:10 GMT
 recorded_with: VCR 2.3.0

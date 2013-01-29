@@ -6,7 +6,7 @@ module BlueConductor
       @title  = manager.song
       @band   = manager.band
       @album  = manager.album
-      @lyrics = manager.data
+      @lyrics = manager.lyrics
     end
   end
 end
