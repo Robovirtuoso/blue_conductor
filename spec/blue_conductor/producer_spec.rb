@@ -18,7 +18,7 @@ describe BlueConductor::Producer do
           @record = subject.new(band, record)
         end
 
-        @record.songs.map(&:title).should == track_list
+        @record.tracklist.should == track_list
         @record.image.should == 'http://cdn2.songlyricscom.netdna-cdn.com/album_covers/202/van-halen-fair-warning/van-halen-6832-fair-warning.jpg'
       end
     end
@@ -36,7 +36,7 @@ describe BlueConductor::Producer do
           @record.error.should == 'The album requested is not available || there was a spelling error'
           @record.band.should == band
           @record.album.should == record
-          @record.songs.should == nil
+          @record.tracklist.should == []
           @record.image.should == ''
       end
     end
